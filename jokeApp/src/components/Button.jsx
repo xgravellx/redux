@@ -5,6 +5,7 @@ const {
 } = actions;
 
 const Button = ({ children, action }) => {
+
     const handleClick = () => {
       dispatch(getJokePending());
       setTimeout(() => {
